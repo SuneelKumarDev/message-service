@@ -1,7 +1,10 @@
-# Compiled class file
+# Git
+.git
+
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -10,7 +13,37 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Java-related files
+.classpath
+.project
+.settings/
+/bin/
+/target/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+.sts4-cache
+.springBeans
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Package files
 *.jar
 *.war
 *.nar
@@ -19,24 +52,20 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
-
-# Java
-.classpath
-.project
-.settings/
-/target/
-/bin/
-
-# IntelliJ IDEA
-.idea/
-
-# Eclipse
-.project
-.classpath
-.settings/
 
 # MacOS
 .DS_Store
@@ -44,3 +73,7 @@ replay_pid*
 # Windows
 Thumbs.db
 
+# Other
+HELP.md
+.cmd
+.gitignore
