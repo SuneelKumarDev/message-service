@@ -1,6 +1,6 @@
 # Message Service
 
-This is a Spring Boot-based service designed to send emails. It is part of the RDCRMS (Record Data Collection and Management System) project.
+This is a Spring Boot-based service designed to send emails. It is part of the RDCRMS (Revenue Department Certificates Realtime Monitoring System) project.
 
 ## Features
 - Sends simple emails using Gmail SMTP.
